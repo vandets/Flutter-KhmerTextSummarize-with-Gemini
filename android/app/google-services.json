@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "406933258845",
+    "project_id": "khmertextsummarize",
+    "storage_bucket": "khmertextsummarize.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406933258845:android:59359223673dff53e283b4",
+        "android_client_info": {
+          "package_name": "com.khit.msit_khmer_text_summarizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406933258845-ec8o3bgbj20n3i5a39mfisbm315nir75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khit.msit_khmer_text_summarizer",
+            "certificate_hash": "51dce74fca703ca58e2bcba26062d06e0d052ee8"
+          }
+        },
+        {
+          "client_id": "406933258845-a8tmu4eaaa3j8rc1fh9hs797isnsr1j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo4qcUIs5nzM-nAKLOYBplL_-jfxIxPl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406933258845-a8tmu4eaaa3j8rc1fh9hs797isnsr1j4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "406933258845-cuaq6012igre2h8mcnim40frfjabl54s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.khit.msitKhmerTextSummarizer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
