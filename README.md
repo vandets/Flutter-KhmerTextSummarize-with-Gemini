@@ -1,1 +1,64 @@
-# 📱 Khmer Text Summarizer App 🇰🇭  ### _"Smart. Simple. Summarize Khmer text in seconds."_  <p align="center">  <img src="https://img.shields.io/badge/Framework-Flutter-blue?style=flat-square">  <img src="https://img.shields.io/badge/Language-Dart-0175C2?style=flat-square">  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green?style=flat-square">  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square"> </p>  ---  ## 🧭 Overview  **Khmer Text Summarizer App** is a cross-platform mobile application built with **Flutter**, designed to make text summarization for Khmer language **easy, fast, and intuitive**. It connects with a **local or online summarization API (Java + Gemini)** to generate concise summaries of Khmer text or uploaded documents (PDF, TXT).  > ✨ A bridge between modern AI summarization and Khmer NLP — built for accessibility, education, and research.  ---  ## 🚀 Features  ✅ **Upload & Summarize PDFs** – Quickly extract summaries from Khmer PDFs.  🧠 **AI + Local Summarization** – Supports both **Gemini API** and **local TextRank** summarization.  🇰🇭 **Khmer Script Support** – Full Unicode rendering for Khmer text.  📱 **Modern UI** – Smooth, responsive, and easy to use.  ☁️ **Firebase Integrated** – Secure login and data sync via Firebase Auth.  💬 **Real-Time Summaries** – Instant feedback for pasted or uploaded text.  ---  ## 🧩 Tech Stack  | Layer | Technology |  |-------|-------------|  | Frontend | Flutter (Dart) |  | Backend | Spring Boot (Java) |  | AI / NLP | Gemini API / Local TextRank |  | Auth | Firebase Authentication |  | File Handling | File Picker, Path Provider |  | UI | Material 3 + Custom Khmer Fonts |  ---  ## 💻 Screenshots  > *(You can replace these placeholders with your actual screenshots later)*  <p align="center">  <img src="assets/screenshots/home.png" width="30%">  <img src="assets/screenshots/upload.png" width="30%">  <img src="assets/screenshots/summary.png" width="30%"> </p>  ---  ## ⚙️ Installation  ### 1️⃣ Clone the repository  ```bash git clone https://github.com/vandets/KhmerTextSummarizerApp.git && cd KhmerTextSummarizerApp ```  ### 2️⃣ Install dependencies  ```bash flutter pub get ```  ### 3️⃣ Run the app  ```bash flutter run ```  ---  ## 🔌 API Integration  This app connects to your **Java backend summarizer**. Configure your API endpoint in your Dart environment file (e.g. `.env`):  ``` API_URL=https://your-summarizer-api.com/summarize ```  > 💡 Tip: Use the same Java backend repo (`Local Khmer TextRank Summarizer`) for local testing.  ---  ## 📂 Folder Structure  ``` KhmerTextSummarizerApp/ ┣ 📁 lib/ ┃ ┣ 📄 main.dart ┃ ┣ 📄 SummarizePage.dart ┃ ┣ 📄 AboutUsPage.dart ┃ ┗ 📄 api_service.dart ┣ 📁 assets/ ┃ ┗ 📁 screenshots/ ┣ 📁 android/ ┣ 📁 ios/ ┣ 📜 .env ┗ 📜 README.md ```  ---  ## 💡 Example Flow  1. User uploads a Khmer text or PDF.  2. App sends the content to the API.  3. API performs summarization (Gemini / Local TextRank).  4. App displays a short, readable Khmer summary.  ---  ## 🪄 Future Roadmap  - [ ] Offline summarization mode (TextRank in Flutter)  - [ ] Summary history and bookmarks  - [ ] Text-to-speech for Khmer summaries  - [ ] UI redesign for tablet and web  - [ ] Multi-language summarization  ---  ## 👥 Contributors  | Name | Role |  |------|------|  | **Vandet Sok** | Flutter Developer / Project Lead |  | **Team KHIT** | Backend & AI Integration |  ---  ## 📜 License  Licensed under the **MIT License** — open for use, study, and modification.  ---  ### 🌟 _"Empowering Khmer knowledge with open-source AI."_ 🇰🇭  <p align="center">  <sub>Made with 💙 Flutter & ☕ Java — by Vandet Sok and Team KHIT</sub> </p>
+# 📱 Khmer Text Summarizer App 🇰🇭  
+### _"Smart. Simple. Summarize Khmer text in seconds."_
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Framework-Flutter-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Language-Dart-0175C2?style=flat-square">
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square">
+</p>
+
+---
+
+## 🧭 Overview
+
+**Khmer Text Summarizer App** is a cross-platform mobile application built with **Flutter**, designed to make text summarization for Khmer language **easy, fast, and intuitive**.  
+
+It connects with a **local or online summarization API (Java + Gemini)** to generate concise summaries of Khmer text or uploaded documents (PDF, TXT).
+
+> ✨ A bridge between modern AI summarization and Khmer NLP — built for accessibility, education, and research.
+
+---
+
+## 🚀 Features
+
+✅ **Upload & Summarize PDFs** – Quickly extract summaries from Khmer PDFs.  
+🧠 **AI + Local Summarization** – Supports both **Gemini API** and **local TextRank** summarization.  
+🇰🇭 **Khmer Script Support** – Full Unicode rendering for Khmer text.  
+📱 **Modern UI** – Smooth, responsive, and easy to use.  
+☁️ **Firebase Integrated** – Secure login and data sync via Firebase Auth.  
+💬 **Real-Time Summaries** – Instant feedback for pasted or uploaded text.
+
+---
+
+## 🧩 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Frontend | Flutter (Dart) |
+| Backend | Spring Boot (Java) |
+| AI / NLP | Gemini API / Local TextRank |
+| Auth | Firebase Authentication |
+| File Handling | File Picker, Path Provider |
+| UI | Material 3 + Custom Khmer Fonts |
+
+---
+
+## 💻 Screenshots
+
+> *(You can replace these placeholders with your actual screenshots later)*
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="30%">
+  <img src="assets/screenshots/upload.png" width="30%">
+  <img src="assets/screenshots/summary.png" width="30%">
+</p>
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/vandets/KhmerTextSummarizerApp.git
+cd KhmerTextSummarizerApp
